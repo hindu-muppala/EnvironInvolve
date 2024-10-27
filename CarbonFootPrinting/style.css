@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    color: #333;
+}
+/* #f4f4f9 */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header h1 {
+    text-align: center;
+    color: #094804;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+button {
+    background: #0bda24;
+    color: #0b0404;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1dd72a;
+}
+
+#content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    /* Enables flexbox on the container */
+    flex-direction: row;
+    /* Aligns children in a horizontal row */
+    gap: 10px;
+    /* Adds spacing between child elements */
+    justify-content: space-between;
+    /* Distributes space between children */
+    align-items: center;
+    /* Vertically centers child elements */
+}
+
+
+#result {
+    font-size: 1.2em;
+    color: #039e8e;
+    text-align: center;
+    margin-top: 20px;
+}

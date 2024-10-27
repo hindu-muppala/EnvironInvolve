@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Personalized Carbon Footprint Calculator</h1>
+        </header>
+        <h5>Please go though all sections before submit!!</h5>
+        <nav>
+            <button onclick="showTab('personal')">👴 Personal</button>
+            <button onclick="showTab('travel')">🚗 Travel</button>
+            <button onclick="showTab('waste')">🗑️ Waste</button>
+            <button onclick="showTab('energy')">⚡ Energy</button>
+            <button onclick="showTab('consumption')">💸 Consumption</button>
+        </nav>
+        <div id="content">
+            <!-- Tab Content Will Be Loaded Here Dynamically -->
+        </div>
+        <button id="calculate-btn" onclick="calculateFootprint()">Calculate Your Carbon Footprint!</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
